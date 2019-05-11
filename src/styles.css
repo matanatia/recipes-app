@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Stylish', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: #F2D95E;
+    color: #172326;
+}
+
+.center {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.center-full {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.theme {
+    font-family: 'Sofia', cursive;
+}

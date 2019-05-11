@@ -1,0 +1,29 @@
+#about-body {
+    background-image:
+    linear-gradient(to bottom, rgba(242, 217, 94, 1), rgba(242, 217, 94, .1)),
+    url('https://images.unsplash.com/photo-1556910103-1c02745aae4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about-body.center-full {
+    flex-direction: column;
+    text-align: center;
+}
+
+.content {
+    width: 90%;
+}
+
+.content h3 {
+    margin: 2rem auto;
+}
+
+.font-family-Sofia {
+    font-family: 'Sofia', cursive;
+}
+
+.quot {
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px 2px rgba(242, 217, 94, 0.7); 
+}

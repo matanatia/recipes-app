@@ -1,0 +1,13 @@
+<div class="center-full" id="recipes-body">
+  <div class="content">
+
+    <ul>
+      <li *ngFor="let rec of recipes">
+        <a [routerLink]="[ '/recipes', rec.id ]">
+          <h1 class="theme">{{ rec.title }}</h1>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+</div>
